@@ -914,16 +914,16 @@ input[type="number"] {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.class-home {
+.breadcrumbs-list li {
   position: relative;
   margin-right: 17px;
 }
 
-.class-home:not(:last-child)::after {
+.breadcrumbs-list li:not(:first-child)::before {
   position: absolute;
   content: "";
   top: 5px;
-  left: 23px;
+  left: -15px;
   background-image: url("../images/icons/breadcrumbs-vector-1.svg");
   background-repeat: no-repeat;
   background-position: center;
